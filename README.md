@@ -1,4 +1,6 @@
 # Modern theme for nginx's fancyindex module
+> This theme is heavily influenced by [nginx-fancyindex-flat-theme](https://github.com/alehaa/nginx-fancyindex-flat-theme) and uses files from this repository.
+
 [![](https://img.shields.io/github/issues-raw/gonace/nginx-fancyindex-modern-theme.svg?style=flat-square)](https://github.com/gonace/nginx-fancyindex-modern-theme/issues)
 
 ![](readme/screenshot.png)
