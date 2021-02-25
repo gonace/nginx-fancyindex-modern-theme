@@ -1,3 +1,43 @@
+/* This file is part of nginx-fancyindex-modern-theme.
+ *
+ * This theme inherits javascript and base styles from nginx-fancyindex-flat-theme
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ *
+ * nginx-fancyindex-flat-theme is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * nginx-fancyindex-flat-theme is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see
+ *
+ *  http://www.gnu.org/licenses/
+ *
+ *
+ * Copyright (C)
+ *  2018 Alexander Haase <ahaase@alexhaase.de>
+ *
+ *
+ * NOTE: The following comment will be used as short version of the copyright
+ *       notice above to be included in compressed files, too.
+ */
+
+/*!
+ *
+ * This file is part of the nginx-fancyindex-flat-theme, licensed under the GNU
+ * General Public License. See the LICENSE file for details.
+ *
+ * Copyright (C)
+ *  2018 Alexander Haase <ahaase@alexhaase.de>
+ */
+
 /**
  * Print the breadcrumbs.
  *
