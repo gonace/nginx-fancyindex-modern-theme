@@ -34,7 +34,7 @@ dynamic code.
     fancyindex_time_format "%Y-%m-%d %H:%M:%S";
 
     location /theme {
-        alias /srv/www/fileserver/theme;
+        alias /usr/share/nginx/themes/modern;
     }
     ```
     > We recommend taking a look at [fancyindex_time_format](https://github.com/aperezdc/ngx-fancyindex#fancyindex_time_format) to customize the date-time formats.
