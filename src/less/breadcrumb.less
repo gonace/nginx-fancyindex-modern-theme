@@ -1,0 +1,19 @@
+/**
+ * This file includes tweaks for the breadcrumbs.
+ *
+ * Breadcrumbs of this template should have no background (i.e. transparent
+ * background) and its crumbs should have the primary color of this theme.
+ */
+
+.breadcrumb {
+    /* Override the default colors of bootstrap breadcrumbs, so there is no
+     * background anymore and links are colorized with the theme's default green
+     * tone. */
+    background-color: transparent;
+    
+    .breadcrumb-item {
+        a {
+            color: @baseColor;
+        }
+    }
+}

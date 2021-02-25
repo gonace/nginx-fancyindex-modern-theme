@@ -1,0 +1,36 @@
+/**
+ * The height of the footer navbar.
+ *
+ * The height of the footer is required for calculating paddings and margins for
+ * the body. Although it won't be set for the footer (the default value from
+ * bootstrap will be used), it will be defined here to be used in other files.
+ */
+@footer-height: 20px;
+
+
+/* If the content doesn't fill the entire browser window, the footer should
+ * still fit to the bottom of the page - in this case the bottom of the browser
+ * window. The following snippet will expand the content of the page, so the
+ * footer will be displayed at the bottom of the page or the window, depending
+ * on the size of the content.
+ *
+ * This snippet is based on an answer (https://stackoverflow.com/a/27635568)
+ * of abmmhasan (https://stackoverflow.com/users/3300834) at
+ * stackoverlow.com, licensed under CC-BY-SA 3.0. */
+html {
+    position:   relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom:   0;
+    width:    100%;
+    margin-bottom: 0;
+
+    a,
+    a:hover,
+    a:focus {
+        color: @baseColor;
+    }
+}
