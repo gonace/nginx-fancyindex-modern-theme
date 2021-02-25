@@ -45,7 +45,7 @@
  * This function will apply additional styles to it and adds an extra column for
  * icons.
  */
-function generateList()
+function generateTable()
 {
   /**
    * Get the filetype of a specific file based on the file extension.
