@@ -31,6 +31,7 @@ dynamic code.
     fancyindex_name_length 255;
     fancyindex_exact_size  off;
     fancyindex_localtime   on;
+    fancyindex_time_format "%Y-%m-%d %H:%M:%S";
 
     location /theme {
         alias /srv/www/fileserver/theme;
