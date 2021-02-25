@@ -5,7 +5,6 @@
 
 ![](readme/screenshot.png)
 
-
 ## About
 The [fancyindex module](https://github.com/aperezdc/ngx-fancyindex) of
 [nginx](http://nginx.org/) has the powerful capability to be customizable.
@@ -18,11 +17,9 @@ the browser's preview capability, accessing the majority of files should be
 possible, giving the user easy access without a single line of server-side
 dynamic code.
 
-
 ## Usage
-1. Get the latest ressources from [GitHub releases](https://github.com/gonace/nginx-fancyindex-modern-theme/releases)
-   or build them on your own by running `make` inside this repository and copy
-   these files into any location accessible by *nginx*.
+1. Get the latest ressources from [GitHub releases](https://github.com/gonace/nginx-fancyindex-modern-theme/releases) and copy
+   these files into any location accessible by *nginx* (`e.g. /usr/share/nginx/themes/modern`).
 2. Configure your vhost to use the theme's ressources for fancyindex:
     ```
     # Fancyindex
