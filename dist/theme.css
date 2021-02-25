@@ -1,1 +1,63 @@
+/* This file is part of nginx-fancyindex-modern-theme.
+ *
+ * This theme inherits javascript and base styles from nginx-fancyindex-flat-theme
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ *
+ * nginx-fancyindex-flat-theme is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * nginx-fancyindex-flat-theme is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see
+ *
+ *  http://www.gnu.org/licenses/
+ *
+ *
+ * Copyright (C)
+ *  2018 Alexander Haase <ahaase@alexhaase.de>
+ */
+ 
+/* This theme heavily uses Bootstrap (v5). That means, bootstrap CSS
+ * classes will be used if possible and modified or enhanced by classes defined
+ * in this less file (and dependent files). However, the bootstrap sources will
+ * not be used and compiled in this theme for simplicity, so one served by a
+ * central CDN may be used.
+ *
+ * Although this code shouldn't be affected by Bootstrap's licensing and/or
+ * copyright, we'd like to inform anyone, that Bootstrap is licensed under the
+ * MIT license.
+ *
+ *   Copyright (c) 2011-2018 Twitter, Inc.
+ *   Copyright (c) 2011-2020 The Bootstrap Authors
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ *
+ * NOTE: The following comment will be used as short version of the copyright
+ *       notice above to be included in compressed files, too.
+ */
 body{background-color:#f8f9fa;padding-bottom:20px}@media (prefers-color-scheme:dark){body{background-color:#343a40;color:#fff}}.breadcrumb{background-color:transparent}.breadcrumb .breadcrumb-item a{color:#049648}html{position:relative;min-height:100%}.footer{position:absolute;bottom:0;width:100%;margin-bottom:0}.footer a,.footer a:focus,.footer a:hover{color:#049648}.header{background-color:#049648;color:#fff}.table a,.table a:focus,.table a:hover{color:#000}.table colgroup{display:none}.table .filename{word-break:break-all;white-space:normal}@media (prefers-color-scheme:dark){.table{color:#fff}.table a,.table a:focus,.table a:hover{color:#fff}.table i{color:#fff}.table td,.table tr{color:#fff}}
