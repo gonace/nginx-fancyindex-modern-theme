@@ -6,7 +6,7 @@
 ![](readme/screenshot.png)
 
 ## About
-> :info: You can see a preview/demo of what this theme looks like (here)[https://test.obscured.dev/]!
+> :info: You can see a preview/demo of what this theme looks like [here](https://test.obscured.dev)!
 
 The [fancyindex module](https://github.com/aperezdc/ngx-fancyindex) of
 [nginx](http://nginx.org/) has the powerful capability to be customizable.
