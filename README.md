@@ -39,3 +39,15 @@ dynamic code.
     }
     ```
     > We recommend taking a look at [fancyindex_time_format](https://github.com/aperezdc/ngx-fancyindex#fancyindex_time_format) to customize the date-time formats.
+
+
+## License
+The nginx-fancyindex-modern-theme is free software: you can redistribute it and/or
+modify it under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your option)
+any later version.
+
+This software is distributed in the hope that it will be useful, but **WITHOUT
+ANY WARRANTY**; without even the implied warranty of **MERCHANTABILITY** or
+**FITNESS FOR A PARTICULAR PURPOSE**. A Copy of the GNU General Public License
+can be found in the [LICENSE](LICENSE) file.
