@@ -24,7 +24,6 @@
  * Copyright (C)
  *  2018 Alexander Haase <ahaase@alexhaase.de>
  */
- 
 /* This theme heavily uses Bootstrap (v5). That means, bootstrap CSS
  * classes will be used if possible and modified or enhanced by classes defined
  * in this less file (and dependent files). However, the bootstrap sources will
@@ -60,4 +59,333 @@
  * NOTE: The following comment will be used as short version of the copyright
  *       notice above to be included in compressed files, too.
  */
-body{background-color:#f8f9fa;color:#343a40;font-family:Roboto-Regular,"Helvetica Neue",Arial,sans-serif;padding-bottom:20px}@media (prefers-color-scheme:dark){body{background-color:#343a40;color:#fff}}.breadcrumb{background-color:transparent}.breadcrumb .breadcrumb-item a{color:#049648}.breadcrumb .breadcrumb-item.active{color:#343a40}html{position:relative;min-height:100%}.footer{position:absolute;bottom:0;width:100%;margin-bottom:0}.footer a,.footer a:focus,.footer a:hover{color:#049648}.header{background-color:#049648;color:#fff}.table{color:#343a40}.table a,.table a:focus,.table a:hover{color:#343a40}.table colgroup{display:none}.table .filename{word-break:break-all;white-space:normal}@media (prefers-color-scheme:dark){.table{color:#fff}.table a,.table a:focus,.table a:hover{color:#fff}.table i{color:#fff}.table td,.table tr{color:#fff}}a{text-decoration:none}
+/* This file is part of nginx-fancyindex-modern-theme.
+ *
+ * This theme inherits javascript and base styles from nginx-fancyindex-flat-theme
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ *
+ * nginx-fancyindex-flat-theme is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * nginx-fancyindex-flat-theme is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see
+ *
+ *  http://www.gnu.org/licenses/
+ *
+ *
+ * Copyright (C)
+ *  2018 Alexander Haase <ahaase@alexhaase.de>
+ */
+/**
+ * This file includes some general settings for the body of this template, e.g.
+ * the background-color and paddings for the footer.
+ */
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: Roboto-Regular, "Helvetica Neue", Arial, sans-serif;
+  /* If the body fits the entire page, there should be a little spacer between
+     * the content and the footer. */
+  padding-bottom: 20px;
+}
+/* If the client prefers a dark color scheme, the following classes will be
+ * applied to give the site a dark look and feel.
+ *
+ * NOTE: These classes need to be at the end of this file, as they override the
+ *       default settings previously defined, if the dark color scheme is
+ *       requested. */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #343a40;
+    color: #fff;
+  }
+}
+/* This file is part of nginx-fancyindex-modern-theme.
+ *
+ * This theme inherits javascript and base styles from nginx-fancyindex-flat-theme
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ *
+ * nginx-fancyindex-flat-theme is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * nginx-fancyindex-flat-theme is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see
+ *
+ *  http://www.gnu.org/licenses/
+ *
+ *
+ * Copyright (C)
+ *  2018 Alexander Haase <ahaase@alexhaase.de>
+ */
+/**
+ * This file includes tweaks for the breadcrumbs.
+ *
+ * Breadcrumbs of this template should have no background (i.e. transparent
+ * background) and its crumbs should have the primary color of this theme.
+ */
+.breadcrumb {
+  /* Override the default colors of bootstrap breadcrumbs, so there is no
+     * background anymore and links are colorized with the theme's default green
+     * tone. */
+  background-color: transparent;
+}
+.breadcrumb .breadcrumb-item a {
+  color: #049648;
+}
+.breadcrumb .breadcrumb-item.active {
+  color: #343a40;
+}
+/* This file is part of nginx-fancyindex-modern-theme.
+ *
+ * This theme inherits javascript and base styles from nginx-fancyindex-flat-theme
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ *
+ * nginx-fancyindex-flat-theme is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * nginx-fancyindex-flat-theme is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see
+ *
+ *  http://www.gnu.org/licenses/
+ *
+ *
+ * Copyright (C)
+ *  2018 Alexander Haase <ahaase@alexhaase.de>
+ */
+/**
+ * Grayscale colors.
+ *
+ * NOTE: Although not all colors of the grayscale palette will be used, all
+ *       colors have been copied for simlicity when fixing color issues in
+ *       future commits.
+ */
+/**
+ * Colors from Google's material design.
+ *
+ * The application's primary color is a green-tone taken from Google's material
+ * design, licensed under the MIT license.
+ */
+/* This file is part of nginx-fancyindex-modern-theme.
+ *
+ * This theme inherits javascript and base styles from nginx-fancyindex-flat-theme
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ *
+ * nginx-fancyindex-flat-theme is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * nginx-fancyindex-flat-theme is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see
+ *
+ *  http://www.gnu.org/licenses/
+ *
+ *
+ * Copyright (C)
+ *  2018 Alexander Haase <ahaase@alexhaase.de>
+ */
+/**
+ * The height of the footer navbar.
+ *
+ * The height of the footer is required for calculating paddings and margins for
+ * the body. Although it won't be set for the footer (the default value from
+ * bootstrap will be used), it will be defined here to be used in other files.
+ */
+/* If the content doesn't fill the entire browser window, the footer should
+ * still fit to the bottom of the page - in this case the bottom of the browser
+ * window. The following snippet will expand the content of the page, so the
+ * footer will be displayed at the bottom of the page or the window, depending
+ * on the size of the content.
+ *
+ * This snippet is based on an answer (https://stackoverflow.com/a/27635568)
+ * of abmmhasan (https://stackoverflow.com/users/3300834) at
+ * stackoverlow.com, licensed under CC-BY-SA 3.0. */
+html {
+  position: relative;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+.footer a,
+.footer a:hover,
+.footer a:focus {
+  color: #049648;
+}
+/* This file is part of nginx-fancyindex-modern-theme.
+ *
+ * This theme inherits javascript and base styles from nginx-fancyindex-flat-theme
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ *
+ * nginx-fancyindex-flat-theme is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * nginx-fancyindex-flat-theme is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see
+ *
+ *  http://www.gnu.org/licenses/
+ *
+ *
+ * Copyright (C)
+ *  2018 Alexander Haase <ahaase@alexhaase.de>
+ */
+/**
+ * This file configures the header navbar. There will be only slight differences
+ * from bootstrap's default navbar: the background is green with white text.
+ *
+ * NOTE: This class should be used together with the `navbar` class.
+ */
+.header {
+  background-color: #049648;
+  color: #fff;
+}
+/* This file is part of nginx-fancyindex-modern-theme.
+ *
+ * This theme inherits javascript and base styles from nginx-fancyindex-flat-theme
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ *
+ * nginx-fancyindex-flat-theme is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * nginx-fancyindex-flat-theme is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see
+ *
+ *  http://www.gnu.org/licenses/
+ *
+ *
+ * Copyright (C)
+ *  2018 Alexander Haase <ahaase@alexhaase.de>
+ */
+/**
+ * This file configures anything related to the directory index, that is not
+ * handled by the general classes, e.g. the handling of filenames.
+ */
+.table {
+  color: #343a40;
+  /* Filenames and the table headings may link to the relating file or sort
+     * the table. However, these links shoul NOT be highlighted. Decorations
+     * will be kept enabled for underlineing the link when hovering. */
+  /* The colgroup needs to be hidden to stop the default fancyindex table to
+     * set the width of the columns. */
+  /* If the client prefers a dark color scheme, the following classes will be
+     * applied to give the site a dark look and feel.
+     *
+     * NOTE: These classes need to be at the end of this file, as they override the
+     *       default settings previously defined, if the dark color scheme is
+     *       requested. */
+}
+.table a,
+.table a:hover,
+.table a:focus {
+  color: #343a40;
+}
+.table colgroup {
+  display: none;
+}
+.table .filename {
+  /* As the filenames could take more space than available, allow the
+         * browser to break it if needed. */
+  word-break: break-all;
+  white-space: normal;
+}
+@media (prefers-color-scheme: dark) {
+  .table {
+    color: #fff;
+  }
+  .table a,
+  .table a:hover,
+  .table a:focus {
+    color: #fff;
+  }
+  .table i {
+    color: #fff;
+  }
+  .table tr,
+  .table td {
+    color: #fff;
+  }
+}
+/* This file is part of nginx-fancyindex-modern-theme.
+ *
+ * This theme inherits javascript and base styles from nginx-fancyindex-flat-theme
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ *
+ * nginx-fancyindex-flat-theme is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * nginx-fancyindex-flat-theme is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ * Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see
+ *
+ *  http://www.gnu.org/licenses/
+ *
+ *
+ * Copyright (C)
+ *  2020 Erik Hennerfors <erik.hennerfors@obscured.se>
+ */
+a {
+  text-decoration: none;
+}

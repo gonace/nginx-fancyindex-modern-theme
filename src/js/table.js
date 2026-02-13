@@ -181,7 +181,6 @@ function generateTable()
         {
         case 'folder':
           return 'fa-folder';
-
         case 'archive':
         case 'audio':
         case 'code':
@@ -192,18 +191,17 @@ function generateTable()
         case 'text':
         case 'video':
         case 'word':
-          return 'fa-file-' + filetype + '-o';
+          return 'fa-file-' + filetype;
 
         /* If none of the previous types matched, use a generic file icon. */
         default:
-          return 'fa-file-o';
+          return 'fa-file';
         }
     }
 
     /* Return the file icon HTML tag to be used for the file passed to this
      * function. */
-    return '<i class="fa fa-fw ' + getFontAwesomeClass(filetype) +
-           '" aria-hidden="true"></i>';
+    return '<i class="fa-regular ' + getFontAwesomeClass(filetype) + '" aria-hidden="true"></i>';
   }
 
 
