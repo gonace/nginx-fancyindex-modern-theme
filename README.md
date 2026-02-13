@@ -3,8 +3,8 @@
 
 [![](https://img.shields.io/github/issues-raw/gonace/nginx-fancyindex-modern-theme.svg?style=flat-square)](https://github.com/gonace/nginx-fancyindex-modern-theme/issues)
 
-![](readme/screenshot-light.png)
 ![](readme/screenshot-dark.png)
+![](readme/screenshot-light.png)
 
 ## About
 > :grey_exclamation: You can see a preview/demo of what this theme looks like [here](https://test.obscured.dev)!
